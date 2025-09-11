@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Materials for Fusion and Fission Energy | FAMU–FSU</title>
+  <meta name="description" content="Research group at the FAMU–FSU College of Engineering focusing on materials in extreme nuclear environments: liquid metal corrosion, magnetic-field effects, and zirconium alloys." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    html { scroll-behavior: smooth; }
+    body { font-family: 'Inter', system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, 'Apple Color Emoji', 'Segoe UI Emoji'; }
+    .container-narrow { max-width: 1100px; }
+  </style>
+</head>
+<body class="bg-slate-50 text-slate-800">
+  <!-- Sticky Header -->
+  <header class="fixed top-0 left-0 w-full z-50 bg-gradient-to-br from-blue-900 via-slate-900 to-slate-800 text-white shadow-lg">
+    <div class="container mx-auto container-narrow px-6 py-4">
+      <nav class="flex items-center justify-between gap-6">
+        <div class="text-xl font-bold tracking-wide">FAMU–FSU College of Engineering</div>
+        <ul class="hidden md:flex items-center gap-6 text-sm">
+          <li><a href="#openings" class="hover:underline">Openings</a></li>
+          <li><a href="#news" class="hover:underline">News</a></li>
+          <li><a href="#people" class="hover:underline">People</a></li>
+          <li><a href="#research" class="hover:underline">Research</a></li>
+          <li><a href="#teaching" class="hover:underline">Teaching</a></li>
+          <li><a href="#equipment" class="hover:underline">Equipment</a></li>
+          <li><a href="#publications" class="hover:underline">Publications</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="pt-28 bg-gradient-to-br from-blue-900 via-slate-900 to-slate-800 text-white">
+    <div class="container mx-auto container-narrow px-6 pb-10">
+      <h1 class="text-3xl md:text-5xl font-extrabold leading-tight">Materials for Fusion and Fission Energy</h1>
+      <p class="mt-4 md:text-lg text-slate-200 max-w-3xl">The Materials for Fusion and Fission Energy group focuses on advancing the understanding of how materials degrade in extreme nuclear environments. Our research combines advanced microscopy, high-temperature testing, and custom-designed facilities to explore how materials behave under magnetic fields, liquid-metal corrosion, and irradiation conditions relevant to both fission and fusion energy systems. We aim to build a strong, collaborative team to develop innovative solutions for energy materials challenges, while providing hands-on training opportunities for students at both undergraduate and graduate levels.</p>
+      <div class="mt-6 flex gap-3">
+        <a href="#people" class="px-5 py-2 rounded-xl bg-white/95 text-slate-900 font-semibold shadow hover:bg-white">Meet the team</a>
+        <a href="#research" class="px-5 py-2 rounded-xl bg-blue-500/90 hover:bg-blue-500 text-white font-semibold shadow">Our research</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Main -->
+  <main class="container mx-auto container-narrow px-6 py-10 space-y-16">
+    <section id="openings" class="scroll-mt-24">
+      <h2 class="text-2xl md:text-3xl font-bold mb-4">Openings</h2>
+      <div class="rounded-2xl shadow bg-white p-6 border border-slate-100">
+        <p class="text-slate-700">
+          We welcome motivated students and collaborators. Opportunities are available for
+          PhD students, undergraduate research assistants, and visiting students.
+          If you’re interested, please email <a class="text-blue-700 underline" href="mailto:jliu@eng.famu.fsu.edu">jliu@eng.famu.fsu.edu</a> with your CV, transcripts and a brief statement of interests.
+        </p>
+      </div>
+    </section>
+
+    <section id="news" class="scroll-mt-24">
+      <h2 class="text-2xl md:text-3xl font-bold mb-6">News</h2>
+
+      <!-- Latest news with image -->
+      <div id="news-latest" class="grid md:grid-cols-2 gap-6">
+        <article class="rounded-2xl shadow bg-white p-6 border border-slate-100">
+          <img src="images/news/group-photo-irc-2025.jpg" alt="Group photo in front of the new IRCB building" class="w-full max-h object-cover rounded-xl border mb-4" />
+          <h3 class="mt-2 font-semibold">Group photo at the new IRCB building</h3>
+          <p class="text-sm text-slate-600">September 2025</p>
+          <p class="mt-3 text-slate-700">We celebrated our start at the Interdisciplinary Research &amp; Commercialization Building (IRCB) with a group photo.</p>
+        </article>
+      </div>
+
+      <!-- Older news (hidden until expanded). Leave empty to auto-hide the button. -->
+      <div id="news-more" class="hidden mt-6">
+        <div class="grid md:grid-cols-2 gap-6">
+          <!-- Add older news cards here, copy the "aticle" section from above to here -->
+        </div>
+      </div>
+
+      <div class="mt-4">
+        <button id="toggle-news" class="px-4 py-2 rounded-lg font-semibold bg-blue-600 text-white hover:bg-blue-700 shadow">
+          Show more news
+        </button>
+      </div>
+    </section>
+
+    
+<section id="people" class="scroll-mt-24">
+  <h2 class="text-2xl md:text-3xl font-bold mb-6">People</h2>
+
+  <!-- Principal Investigator -->
+  <div class="rounded-2xl shadow bg-white p-6 border border-slate-100 mb-8">
+    <h3 class="text-xl font-semibold">Principal Investigator</h3>
+    <div class="mt-4 grid md:grid-cols-[auto,1fr] gap-4 md:items-center">
+      <!-- Avatar (photo or initials) -->
+      <div class="w-24 h-24 min-w-[6rem] min-h-[6rem] rounded-full border border-slate-200 flex items-center justify-center bg-slate-100 overflow-hidden shrink-0">
+        <!-- Use image if available -->
+        <img src="images/liu.jpg" alt="Junliang Liu" class="w-full h-full object-cover" />
+        <!-- Fallback initials -->
+        <!--<span class="text-4xl font-bold text-black">JL</span>-->
+      </div>
+
+      <!-- Info -->
+      <div>
+        <p class="font-semibold">Junliang Liu</p>
+        <p class="text-slate-700">Assistant Professor of Materials Science &amp; Engineering</p>
+        <p class="mt-2"><span class="font-semibold">Email:</span> <a class="text-blue-700 underline" href="mailto:jliu@eng.famu.fsu.edu">jliu@eng.famu.fsu.edu</a></p>
+        <p><span class="font-semibold">Office Phone:</span> (850) 410-6181</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Graduate Students -->
+  <div class="rounded-2xl shadow bg-white p-6 border border-slate-100 mb-8">
+    <h3 class="text-xl font-semibold">Graduate Students</h3>
+    <div class="mt-4 grid md:grid-cols-2 gap-4">
+      
+      <!-- Mushfique -->
+      <div class="rounded-xl border border-slate-200 p-4 flex items-center gap-4">
+        <div class="w-24 h-24 min-w-[6rem] min-h-[6rem] rounded-full border border-slate-200 flex items-center justify-center bg-slate-100 overflow-hidden shrink-0">
+          <!-- <img src="images/mushfique.svg" alt="Mushfique Mahmood" class="w-full h-full object-cover" /> -->
+          <span class="text-3xl font-bold text-black">MM</span>
+        </div>
+        <div>
+          <p class="font-semibold">Mushfique Mahmood</p>
+          <p class="text-slate-700">PhD student, enrolled Fall 2025</p>
+          <p class="text-slate-700">MS in Mechanical Engineering, Washington State University</p>
+          <p class="mt-2"><span class="font-semibold">Email:</span> <a class="text-blue-700 underline" href="mailto:mm25cd@fsu.edu">mm25cd@fsu.edu</a></p>
+        </div>
+      </div>
+
+      <!-- Morakinyo -->
+      <div class="rounded-xl border border-slate-200 p-4 flex items-center gap-4">
+        <div class="w-24 h-24 min-w-[6rem] min-h-[6rem] rounded-full border border-slate-200 flex items-center justify-center bg-slate-100 overflow-hidden shrink-0">
+          <!-- <img src="images/morakinyo.svg" alt="Morakinyo Akin-Adamu" class="w-full h-full object-cover" /> -->
+          <span class="text-3xl font-bold text-black">MA</span>
+        </div>
+        <div>
+          <p class="font-semibold">Morakinyo Akin-Adamu</p>
+          <p class="text-slate-700">PhD student, enrolled Fall 2025</p>
+          <p class="text-slate-700">BS in Metallurgical &amp; Materials Engineering, University of Lagos</p>
+          <p class="mt-2"><span class="font-semibold">Email:</span> <a class="text-blue-700 underline" href="mailto:ma25be@fsu.edu">ma25be@fsu.edu</a></p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Undergraduate Students -->
+  <div class="rounded-2xl shadow bg-white p-6 border border-slate-100">
+    <h3 class="text-xl font-semibold">Undergraduate Students</h3>
+    <div class="mt-4 grid md:grid-cols-2 gap-4">
+      
+      <!-- Kylie -->
+      <div class="rounded-xl border border-slate-200 p-4 flex items-center gap-4">
+        <div class="w-24 h-24 min-w-[6rem] min-h-[6rem] rounded-full border border-slate-200 flex items-center justify-center bg-slate-100 overflow-hidden shrink-0">
+          <!-- <img src="images/kylie.svg" alt="Kylie Galiger" class="w-full h-full object-cover" /> -->
+          <span class="text-3xl font-bold text-black">KG</span>
+        </div>
+        <div>
+          <p class="font-semibold">Kylie Galiger</p>
+          <p class="text-slate-700">Senior undergraduate, Mechanical Engineering, Florida State University</p>
+          <p class="mt-2"><span class="font-semibold">Email:</span> <a class="text-blue-700 underline" href="mailto:kng22a@fsu.edu">kng22a@fsu.edu</a></p>
+        </div>
+      </div>
+
+      <!-- Zachary -->
+      <div class="rounded-xl border border-slate-200 p-4 flex items-center gap-4">
+        <div class="w-24 h-24 min-w-[6rem] min-h-[6rem] rounded-full border border-slate-200 flex items-center justify-center bg-slate-100 overflow-hidden shrink-0">
+          <!-- <img src="images/zachary.svg" alt="Zachary Melvin" class="w-full h-full object-cover" /> -->
+          <span class="text-3xl font-bold text-black">ZM</span>
+        </div>
+        <div>
+          <p class="font-semibold">Zachary Melvin</p>
+          <p class="text-slate-700">Senior undergraduate, Mechanical Engineering, Florida State University</p>
+          <p class="mt-2"><span class="font-semibold">Email:</span> <a class="text-blue-700 underline" href="mailto:zem22a@fsu.edu">zem22a@fsu.edu</a></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+    <section id="research" class="scroll-mt-24">
+      <h2 class="text-2xl md:text-3xl font-bold mb-6">Research Areas</h2>
+      <div class="grid md:grid-cols-3 gap-4">
+        <div class="rounded-2xl shadow bg-white p-6 border border-slate-100">
+          <h3 class="font-semibold">Effect of magnetic fields on material degradation</h3>
+          <p class="mt-2 text-slate-700">We study how strong magnetic fields affect corrosion and other degradation processes in structural materials. This helps us better understand challenges in fusion reactors, where powerful magnets are a key part of the system.</p>
+        </div>
+        <div class="rounded-2xl shadow bg-white p-6 border border-slate-100">
+          <h3 class="font-semibold">Liquid metal corrosion (Li, Ga, Sn, Na)</h3>
+          <p class="mt-2 text-slate-700">Our group tests how different liquid metals interact with advanced materials. These studies are important for future nuclear technologies that use liquid metals as coolants or breeder materials.</p>
+        </div>
+        <div class="rounded-2xl shadow bg-white p-6 border border-slate-100">
+          <h3 class="font-semibold">Aqueous corrosion of zirconium alloys</h3>
+          <p class="mt-2 text-slate-700">We investigate how zirconium alloys behave in water-based environments, similar to those in light-water reactors. The goal is to improve the durability and safety of materials used in today’s nuclear energy systems.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="teaching" class="scroll-mt-24">
+      <h2 class="text-2xl md:text-3xl font-bold mb-4">Teaching</h2>
+      <div class="grid md:grid-cols-1 gap-4">
+        <div class="rounded-2xl shadow bg-white p-6 border border-slate-100">
+        <h3 class="text-lg font-semibold">Materials for Nuclear Engineering (MAE/EML 4930/5930, 3 credits)</h3>
+        <p class="mt-3 text-slate-700">This course introduces students to the principles governing the behaviour of materials in both nuclear fission and fusion reactor environments. It begins with an overview of the major reactor components and the demanding service conditions experienced by structural materials. Students then review fundamental concepts in materials science—including crystal structures, lattice defects, dislocation theory, thermodynamics, and phase diagrams—which serve as the foundation for analysing degradation mechanisms under nuclear operating conditions. Building on this framework, the course examines how irradiation, corrosion, elevated temperatures, and high magnetic fields influence microstructural evolution and mechanical performance, highlighting the complex challenges associated with designing and selecting materials for advanced nuclear energy systems.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="equipment" class="scroll-mt-24">
+      <h2 class="text-2xl md:text-3xl font-bold mb-4">Accessible Equipment</h2>
+      <div class="rounded-2xl shadow bg-white p-6 border border-slate-100">
+        
+<p class="mt-3 text-slate-700"><span class="font-semibold">(S)TEM:</span> An aberration-corrected JEOL ARM-200F microscope equipped with dual EELS (electron energy loss spectroscopy) and EDX (energy-dispersive X-ray spectroscopy) detectors. The instrument will soon be upgraded with a direct electron 4D-STEM detector from Quantum Detectors, enabling advanced nanoscale mapping of orientation, strain and electric fields.</p>
+<p class="mt-4 text-slate-700"><span class="font-semibold">FIB-SEM:</span> A Thermo Fisher Helios G4 dual-beam instrument equipped with Oxford Instruments EBSD and EDX systems. This platform is widely used for correlative EBSD-EDX-SEM analysis and site-specific TEM sample preparation.</p>
+<p class="mt-4 text-slate-700"><span class="font-semibold">Software:</span> Advanced analysis tools include <i>Thermo Scientific Avizo</i> for 3D reconstruction, visualization, and quantitative analysis of tomography and serial-section datasets, as well as <i>Oxford Instruments MapSweeper</i> (pattern-matching EBSD pattern indexing, coming soon).</p>
+<p class="mt-4 text-slate-700"><span class="font-semibold">Superconducting Magnet:</span> An 8.5 tesla, 20 cm bore magnet integrated with a high-temperature furnace is available to the group and located at the MagLab. The system is cryocooled, eliminating the need for large volumes of liquid helium and substantially reducing operating costs.</p>
+<p class="mt-4 text-slate-700"><span class="font-semibold">Customized Furnace for Magnets:</span> A furnace capable of operating up to 1000&nbsp;°C under controlled atmosphere and pressure, specifically designed for compatibility with the superconducting magnet to enable in-field corrosion and high-temperature degradation studies.</p>
+<p class="mt-4 text-slate-700"><span class="font-semibold">Gloveboxes:</span> Multiple glovebox systems are available, some integrated with tube furnaces, for handling air- and moisture-sensitive materials. These systems allow corrosion testing and materials processing under controlled atmospheres without exposure to air.</p>
+<p class="mt-4 text-slate-700"><span class="font-semibold">Metallurgy Laboratory:</span> A fully equipped metallographic preparation facility that includes automatic and manual polishers, vibration polishers, hot and cold mounting presses, high- and low-speed precision saws, hardness testers, and bench-top light microscopes. These capabilities support a broad range of sample preparation and characterization needs.</p>
+
+      </div>
+    </section>
+
+    <section id="publications" class="scroll-mt-24">
+      <h2 class="text-2xl md:text-3xl font-bold mb-2">Publications</h2>
+      <!-- Compact viewport with scroll for the most recent years -->
+      <div id="pubs-compact" class="max-h-96 overflow-y-auto pr-2">
+        <!-- 2025 -->
+        <h3 class="text-xl font-semibold mt-8">2025</h3>
+        <ol class="list-decimal pl-6 space-y-3 mt-2">
+          <li>J. Liu, F. Xue, W. Zhang, H. Zhang, P. Frankel, G. Lucadamo, W. Howland, M. Moody, P. Bagot, C. Grovenor, E. A. Marquis, A. Couet, <i>Evidence for hydrogen and oxygen diffusion through grain boundaries in autoclave formed oxides on Zircaloy-4: A correlative APT and TEM study</i>, <b>Corrosion Science</b>, 253 (2025) 112981.</li>
+          <li>Y. Sun, G. M. Hughes, J. Bu, J. Liu, C. R. M. Grovenor, P. S. Grant, <i>Visualizing the Li distribution in an all-solid-state battery composite electrode using combined plasma focused-ion beam microscopy and secondary-ion mass spectroscopy</i>, <b>Micron</b>, 190 (2025) 103746.</li>
+        </ol>
+        <!-- 2024 -->
+        <h3 class="text-xl font-semibold mt-8">2024</h3>
+        <ol class="list-decimal pl-6 space-y-3 mt-2">
+          <li>J. Liu, H. Myers, B. Young, A. Leide, J. Wade-Zhu, C. Grovenor, D. Armstrong, <i>Liquid lithium corrosion of SiC/SiC composites</i>, <b>Materialia</b>, 34 (2024) 102062.</li><li>K. Rivers, B. Young, Y. T. Tang, B. S. Li, A. J. Wilkinson, D. E. J. Armstrong, J. Liu*, <i>Oxidation behaviour of Ti-V-Cr-Nb-Ta and Al-Ti-V-Cr-Ta refractory high entropy alloys: Effects of Nb and Al substitutions</i>, <b>Materials & Design</b>, 246 (2024) 113370.</li><li>N. Srivastava, G. A. B. Matthews, J. Liu, S. C. Speller, C. R. M. Grovenor, S. Santra, <i>Effect of dopant solubility and excess doping on the superconducting properties of doped Nb₃Sn prepared by field assisted sintering technique</i>, <b>Journal of Alloys and Compounds</b>, 1002 (2024) 175526.</li><li>Z. Gao, J. C., N. Tutt, Y. Shi, J. Liu, C. R. M. Grovenor, D. A. Cardwell, J. H. Durrell, S. C. Speller, <i>Microstructure of superconducting hetero-joints between single-grained Gd–Ba–Cu–O bulk superconductors</i>, <b>Superconductor Science and Technology</b>, 38 (2024) 015029.</li>
+        </ol>
+      </div>
+
+      <!-- Hidden extended list for older years -->
+      <div id="pubs-more" class="hidden mt-6">
+        <!-- 2023..2018 -->
+        <h3 class="text-xl font-semibold mt-8">2023</h3><ol class="list-decimal pl-6 space-y-3 mt-2"><li>J. Liu, B. Li, H. Gardner, Y. Gong, F. Liu, G. He, M. Moorehead, C. Parkin, A. Couet, A. Wilkinson, D. Armstrong, <i>Origin of Age Softening in the Refractory High-Entropy Alloys</i>, <b>Science Advances</b>, 9 (2023) eadj1511.</li><li>Z. Ning, G. Li, D. Melvin, Y. Chen, D. S. Jolly, J. Liu, J. Bu, J. Perera, C. Gong, X. Gao, S. Pu, S. Zhang, B. Hu, G. Hartley, A. Bodey, R. Todd, P. Grant, D. Armstrong, T. J. Marrow, C. Monroe, P. Bruce, <i>Dendrite Initiation and Propagation in Lithium Metal Solid-State Batteries</i>, <b>Nature</b>, 618 (2023).</li><li>H. Xu, W. Ji, J. Jiang, J. Liu, R. Yu, B. Tu, J. Zhang, J. Zou, W. Wang, J. Wu, Z. Fu, <i>Contribution of boundary non-stoichiometry to the lower-temperature plasticity in high-pressure sintered boron carbide</i>, <b>Nature Communications</b>, 14 (2023) 4889.</li><li>J. Liu, R. J. Scales, B. Li, M. Goode, B. A. Young, A. J. Wilkinson, D. E. J. Armstrong, <i>Controlling microstructure and mechanical properties of Ti-V-Cr-Nb-Ta refractory high entropy alloys through heat treatments</i>, <b>Journal of Alloys and Compounds</b>, 932 (2023) 167651.</li><li>G. He, H. Yu, P. Karamched, J. Liu, F. Hofmann, <i>Elastic Strain Associated with Irradiation-Induced Defects in Self-ion Irradiated Tungsten</i>, <b>Scripta Materialia</b>, 237 (2023) 115687.</li><li>C. Gong, S. D. Pu, S. Zhang, Y. Yuan, Z. Ning, S. Yang, X. Gao, C. Chau, Z. Li, J. Liu, L. Pi, B. Liu, I. Capone, B. Hu, D. L. R. Melvin, M. Pasta, P. G. Bruce, A. W. Robertson, <i>The role of an elastic interphase in suppressing gas evolution and promoting uniform electroplating in sodium metal anodes</i>, <b>Energy & Environmental Science</b>, (2023).</li><li>Y. T. Tang, C. Panwisawas, B. M. Jenkins, J. Liu, Z. Shen, E. Salvati, Y. Gong, J. N. Ghoussoub, S. Michalik, B. Roebuck, P. A. J. Bagot, S. Lozano-Perez, C. Grovenor, M. P. Moody, A. M. Korsunsky, D. M. Collins, R. C. Reed, <i>Multi-length-scale study on heat treatment response to supersaturated nickel-based superalloys: Precipitation reactions and incipient recrystallisation</i>, <b>Additive Manufacturing</b>, 62 (2023) 103389.</li></ol><h3 class="text-xl font-semibold mt-8">2022</h3><ol class="list-decimal pl-6 space-y-3 mt-2"><li>M. Siniscalchi, J. Liu, J. Gibson, S. Turrell, J. Aspinall, R. Weatherup, M. Pasta, S. Speller, C. Grovenor, <i>On the relative importance of Li bulk diffusivity and interface morphology in determining the stripped capacity of metallic anodes in solid-state batteries</i>, <b>ACS Energy Letters</b>, 7 (2022) 3593.</li><li>X. Gao, B. Liu, B. Hu, Z. Ning, J. Perera, J. Bu, J. Liu, C. Doerrer, E. Darnbrough, D. Armstrong, P. S. Grant, P. G. Bruce, <i>Solid-state lithium battery cathodes operating at low pressures</i>, <b>Joule</b>, 6 (2022) 636.</li><li>S. D. Pu, C. Gong, Y. T. Tang, Z. Ning, J. Liu, S. Zhang, Y. Yuan, D. Melvin, S. Yang, L. Pi, J. Marie, B. Hu, M. Jenkins, Z. Li, B. Liu, S. C. E. Tsang, T. J. Marrow, R. C. Reed, X. Gao, P. G. Bruce, A. W. Robertson, <i>Achieving Ultrahigh-Rate Planar and Dendrite-Free Zinc Electroplating for Aqueous Zinc Battery Anodes</i>, <b>Advanced Materials</b>, 2022, 2202552.</li><li>I. Al-Dhahir, R. Kealy, S. Kelly, M. Yu, S. McNab, K. Collett, J. Liu, C. Grovenor, P. R. Wilshaw, R. S. Bonilla, <i>ECS J. Solid State Sci. Technol.</i>, 11 (2022) 063010.</li><li>A. Petkov, D. Cherns, W. Chen, J. Liu, J. Blevins, V. Gambin, M. Li, D. Liu, M. Kuball, <i>Structural Stability of β-Ga₂O₃ under ion irradiation</i>, <b>Applied Physics Letters</b>, 121 (2022) 171903.</li></ol><h3 class="text-xl font-semibold mt-8">2021</h3><ol class="list-decimal pl-6 space-y-3 mt-2"><li>J. Liu, G. He, A. Callow, K. Li, K. L. Moore, H. Nordin, M. Moody, S. Lozano-Perez, C. R. M. Grovenor, <i>The role of β-Zr in Zr-2.5Nb alloys during aqueous corrosion: A multi-technique study</i>, <b>Acta Materialia</b>, 215 (2021) 117042.</li><li>N. Sakai, R. Warren, F. Zhang, S. Nayak, J. Liu, S. V. Kesava, Y. H. Lin, H. S. Biswal, X. Lin, C. Grovenor, T. Malinauskas, A. Basu, T. D. Anthopoulos, V. Getautis, A. Kahn, M. Riede, P. K. Nayak, H. J. Snaith, <i>Adduct-based p-doping of Organic Semiconductors</i>, <b>Nature Materials</b>, 20 (2021) 1248.</li><li>J. Liu, K. Li, S. Lozano-Perez, C. R. M. Grovenor, <i>Site-specific specimen preparation for NanoSIMS analysis of radioactive samples</i>, <b>Journal of Microscopy</b>, 282 (2021) 73.</li><li>K. Li, T. Aarholt, J. Liu, H. Hulme, A. Garner, M. Preuss, S. Lozano-Perez, C. Grovenor, <i>3D-characterization of deuterium distributions in zirconium oxide scale using high-resolution SIMS</i>, <b>Applied Surface Science</b>, 464 (2021) 311.</li><li>D. Liu, D. Cherns, S. Johns, Y. Zhou, J. Liu, W. Chen, I. Griffiths, C. Karthik, M. Li, M. Kuball, J. Kane, W. Windes, <i>A macro-scale ruck and tuck mechanism for deformation in ion-irradiated polycrystalline graphite</i>, <b>Carbon</b>, 173 (2021) 215.</li><li>H. Yu, S. Das, J. Liu, J. Hess, F. Hofmann, <i>Surface terraces in pure tungsten formed by high temperature oxidation</i>, <b>Scripta Materialia</b>, 173 (2021) 110.</li><li>S. J. Turrell, S. Zekoll, J. Liu, C. R. M. Grovenor, S. C. Speller, <i>Optimization of a potential manufacturing process for thin-film LiCoO₂ cathodes</i>, <b>Thin Solid Films</b>, 736 (2021) 138888.</li><li>H. Yu, P. Karamched, S. Das, J. Liu, K. Mizohata, F. Hofmann, <i>New perspectives on collision cascade damage in self-ion irradiated tungsten from HR-EBSD and ECCI</i>, <b>Journal of Nuclear Materials</b>, 554 (2021) 153074.</li><li>X. Tao, K. Zhang, D. Gregory, J. Liu, H. E. Assender, <i>Device Optimization and Large-Scale Roll-to-Roll Manufacturability of Flexible Thin-Film Thermoelectric Generators</i>, <b>Energy Technology</b>, 9 (2021) 2001008.</li><li>C. Doerrer, I. Capone, S. Narayanan, J. Liu, C. R. M. Grovenor, M. Pasta, P. S. Grant, <i>High Energy Density Single Crystal NMC/Li6PS5Cl Cathodes for All-Solid-State Lithium Metal Batteries</i>, <b>ACS Applied Materials & Interfaces</b>, 13 (2021) 37809.</li><li>A. Shah, A. P. Nicholson, T. A. M. Fiducia, A. Abbas, R. Pandey, J. Liu, C. Grovenor, J. M. Walls, W. S. Sampath, A. H. Munshi, <i>Understanding the copassivation effect of Cl and Se for CdTe grain boundaries</i>, <b>ACS Applied Materials & Interfaces</b>, 13 (2021) 35086.</li><li>T. Mousavi, I. Slattery, B. Jagger, J. Liu, S. Speller, C. Grovenor, <i>Development of sputtered nitrogen-doped Li₁₊ₓAlₓGe₂₋ₓ(PO₄)₃ thin films for solid-state batteries</i>, <b>Solid State Ionics</b>, 364 (2021) 115613.</li></ol><h3 class="text-xl font-semibold mt-8">2020</h3><ol class="list-decimal pl-6 space-y-3 mt-2"><li>J. Liu, K. Li, J. Sayers, T. Aarholt, G. He, H. Hulme, A. Garner, M. Preuss, H. Nordin, J. Partezana, M. Limbäck, S. Lozano-Perez, S. Ortner, C. Grovenor, <i>Characterisation of deuterium distributions in corroded zirconium alloys using high-resolution SIMS</i>, <b>Acta Materialia</b>, 200 (2020) 581.</li><li>J. Liu, A. Haq Mir, G. He, M. Danaie, J. Hinks, S. Donnelly, H. Nordin, S. Lozano-Perez, C. R. M. Grovenor, <i>In-situ TEM study of irradiation-induced damage mechanisms in monoclinic-ZrO₂</i>, <b>Acta Materialia</b>, 199 (2020) 429.</li><li>K. Li, J. Liu, C. R. M. Grovenor, K. L. Moore, <i>NanoSIMS Imaging and Analysis in Materials Science</i>, <b>Annual Review of Analytical Chemistry</b>, 13 (2020) 273.</li><li>G. Matthews, J. Liu, C. R. M. Grovenor, P. S. Grant, S. C. Speller, <i>Design and characterisation of ex-situ bulk MgB₂ superconductors containing a nanoscale dispersion of artificial pinning centres</i>, <b>Superconductor Science and Technology</b>, 33 (2020) 034006.</li><li>N. Saravanan, P. Karamched, J. Liu, E. Burger, F. Scenini, S. Lozano-Perez, <i>Using local GND density to study SCC initiation</i>, <b>Ultramicroscopy</b>, 217 (2020) 113054.</li></ol><h3 class="text-xl font-semibold mt-8">2019</h3><ol class="list-decimal pl-6 space-y-3 mt-2"><li>J. Liu, H. Yu, P. Karamched, J. Hu, G. He, D. Goran, G. M. Hughes, A. J. Wilkinson, S. Lozano-Perez, C. Grovenor, <i>Mechanism of the α-Zr to hexagonal-ZrO transformation and its impact on the corrosion performance of nuclear Zr Alloys</i>, <b>Acta Materialia</b>, 179 (2019) 328.</li><li>J. Hu, J. Liu, S. Lozano-Perez, C. Grovenor, M. Christensen, W. Wolf, E. Wimmer, E. V. Mader, <i>Hydrogen pickup during oxidation in aqueous environments: the role of nano-pores and nano-pipes in zirconium oxide films</i>, <b>Acta Materialia</b>, 180 (2019) 105.</li><li>Y. Tang, P. Karamched, J. Liu, J. Haley, R. Reed, A. Wilkinson, <i>Formation Mechanism and Quantification of Grain Boundary Serration in Nickel-based Superalloy Inconel 600</i>, <b>Acta Materialia</b>, 181 (2019) 325.</li><li>J. Liu, S. Lozano-Perez, A. J. Wilkinson, C. Grovenor, <i>Depth resolution of transmission Kikuchi diffraction (TKD)</i>, <b>Ultramicroscopy</b>, 205 (2019) 5.</li><li>J. Liu, S. Lozano-Perez, P. Karamched, J. Holter, A. Wilkinson, C. Grovenor, <i>Forescattered electron imaging of nanoparticles in scanning electron microscopy</i>, <b>Materials Characterization</b>, 155 (2019) 109814.</li><li>J. Liu, G. He, J. Hu, Z. Shen, M. Kirk, M. Li, E. Ryan, P. Baldo, S. Lozano-Perez, C. Grovenor, <i>Irradiation-induced amorphization in the zirconium suboxide on Zr-0.5Nb alloys</i>, <b>Journal of Nuclear Materials</b>, 513 (2019) 226.</li><li>A. Couet, L. Borrel, J. Liu, J. Hu, C. Grovenor, <i>An integrated modeling and experimental approach to study hydrogen pickup mechanism in zirconium alloys</i>, <b>Corrosion Science</b>, 159 (2019) 108134.</li><li>H. Yu, J. Liu, P. Karamched, A. J. Wilkinson, F. Hofmann, <i>Mapping the full lattice strain tensor of a single dislocation by high angular resolution transmission Kikuchi diffraction (HR-TKD)</i>, <b>Scripta Materialia</b>, 164 (2019) 36.</li><li>G. He, J. Liu, K. Li, J. Hu, A. H. Mir, S. Lozano-Perez, C. Grovenor, <i>Investigating the stability of Second Phase Particles in Zr-Nb alloys under irradiation</i>, <b>Journal of Nuclear Materials</b>, 526 (2019) 151738.</li><li>Z. Shen, J. Liu, K. Arioka, S. Lozano-Perez, <i>On the role of intergranular carbides on improving the stress corrosion cracking resistance in a cold-worked alloy 600</i>, <b>Journal of Nuclear Materials</b>, 514 (2019) 50.</li><li>S. Santra, T. Davies, G. Matthews, J. Liu, C. R. M. Grovenor, S. C. Speller, <i>The effect of the size of NbTi filaments on interfacial reactions and the properties of InSn-based superconducting solder joints</i>, <b>Materials & Design</b>, 176 (2019) 107836.</li></ol><h3 class="text-xl font-semibold mt-8">2018</h3><ol class="list-decimal pl-6 space-y-3 mt-2"><li>J. Liu, D. Kaoumi, <i>Use of in-situ TEM to characterize the deformation-induced martensitic transformation in 304 stainless steel at cryogenic temperature</i>, <b>Materials Characterization</b>, 136 (2018) 331.</li><li>D. Kaoumi, J. Liu, <i>Deformation induced martensitic transformation in 304 austenitic stainless steel: In-situ vs. ex-situ transmission electron microscopy characterization</i>, <b>Materials Science and Engineering: A</b>, 715 (2018) 73.</li></ol>
+      </div>
+
+      <div class="mt-4">
+        <button id="toggle-pubs" class="px-4 py-2 rounded-lg font-semibold bg-blue-600 text-white hover:bg-blue-700 shadow">
+          Show all publications
+        </button>
+      </div>
+    </section>
+
+    <section id="collaborators" class="scroll-mt-24">
+      <h2 class="text-2xl md:text-3xl font-bold mb-4">Collaborators</h2>
+      <div class="rounded-2xl shadow bg-white p-6 border border-slate-100">
+        <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-6 items-center">
+          <img src="images/collaborators/oxford.png" alt="University of Oxford logo" class="h-16 md:h-16 object-contain mx-auto" />
+          <img src="images/collaborators/anl.png" alt="Argonne National Laboratory logo" class="h-16 md:h-16 object-contain mx-auto" />
+          <img src="images/collaborators/inl.png" alt="Idaho National Laboratory logo" class="h-20 md:h-20 object-contain mx-auto" />
+          <img src="images/collaborators/ornl.png" alt="Oak Ridge National Laboratory logo" class="h-20 md:h-20 object-contain mx-auto" />
+          <img src="images/collaborators/uwmadison.png" alt="University of Wisconsin–Madison logo" class="h-16 md:h-16 object-contain mx-auto" />
+          <img src="images/collaborators/maglab.png" alt="National High Magnetic Field Laboratory (MagLab) logo" class="h-16 md:h-16 object-contain mx-auto" />
+          <img src="images/collaborators/westinghouse.png" alt="Westinghouse logo" class="h-16 md:h-16 object-contain mx-auto" />
+          <img src="images/collaborators/cnl.png" alt="Canadian Nuclear Laboratories logo" class="h-16 md:h-16 object-contain mx-auto" />
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="py-10 text-center text-sm text-slate-600">
+    © 2025 Materials for Fusion and Fission Energy — FAMU–FSU College of Engineering
+  </footer>
+
+  <script>
+    // Publications toggle
+    (function() {
+      const btn = document.getElementById('toggle-pubs');
+      const compact = document.getElementById('pubs-compact');
+      const more = document.getElementById('pubs-more');
+      let expanded = false;
+      btn.addEventListener('click', function() {
+        expanded = !expanded;
+        if (expanded) {
+          compact.classList.remove('max-h-96', 'overflow-y-auto', 'pr-2');
+          more.classList.remove('hidden');
+          btn.textContent = 'Show fewer';
+        } else {
+          compact.classList.add('max-h-96', 'overflow-y-auto', 'pr-2');
+          more.classList.add('hidden');
+          btn.textContent = 'Show all publications';
+        }
+      });
+    })();
+
+    // News toggle: auto-hide if no older items
+    (function() {
+      const btn = document.getElementById('toggle-news');
+      const more = document.getElementById('news-more');
+      const grid = more && more.querySelector('.grid');
+      if (btn && grid && grid.children.length === 0) {
+        btn.classList.add('hidden');
+      }
+      if (btn) {
+        let expanded = false;
+        btn.addEventListener('click', function() {
+          expanded = !expanded;
+          if (expanded) {
+            more.classList.remove('hidden');
+            btn.textContent = 'Show fewer news';
+          } else {
+            more.classList.add('hidden');
+            btn.textContent = 'Show more news';
+          }
+        });
+      }
+    })();
+  </script>
+</body>
+</html>
